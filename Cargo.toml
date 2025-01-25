@@ -1,0 +1,18 @@
+[package]
+name = "catboy"
+version = "0.1.0"
+authors = ["catboy <catboy009@icloud.com>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-std = "1.13.0"
+css-in-rs = { version = "0.2.0", features = [
+  "dioxus",
+], git = "https://github.com/catboy009/css-in-rs.git" }
+dioxus = { version = "0.6.0-alpha.4", features = ["web"] }
+dioxus-logger = "0.5.1"
+reqwest = { version = "0.12.8", features = ["json"] }
+serde = "1.0.213"
+web-time = "1.1.0"
