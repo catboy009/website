@@ -16,3 +16,15 @@ dioxus-logger = "0.5.1"
 reqwest = { version = "0.12.8", features = ["json"] }
 serde = "1.0.213"
 web-time = "1.1.0"
+
+[profile]
+
+[profile.wasm-dev]
+inherits = "dev"
+opt-level = 1
+
+[profile.server-dev]
+inherits = "dev"
+
+[profile.android-dev]
+inherits = "dev"

@@ -188,7 +188,7 @@ fn App() -> Element {
                 div { margin_bottom: "20px", color: "var(--overlay0)",
                     if let Some(Ok(data)) = weather.read().as_ref() {
                         p {
-                            "she/her, {data.main.temp.round()}°C {data.weather[0].description.as_str()}, {time}"
+                            "they/them, {data.main.temp.round()}°C {data.weather[0].description.as_str()}, {time}"
                         }
                     }
                 }
