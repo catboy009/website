@@ -231,7 +231,7 @@ fn App() -> Element {
                         span { color: "var(--overlay0)", "view your weather" }
                         a {
                             class: &cls.underlined as &str,
-                            href: "https://wtrs.vercel.app",
+                            href: "https://weather.catboy.at",
                             "weather"
                         }
                     }
@@ -241,7 +241,7 @@ fn App() -> Element {
                         span { color: "var(--overlay0)", "simple todo app" }
                         a {
                             class: &cls.underlined as &str,
-                            href: "https://tdwr.vercel.app",
+                            href: "https://todo.catboy.at",
                             "todo"
                         }
                     }
@@ -251,7 +251,7 @@ fn App() -> Element {
                         span { color: "var(--overlay0)", "information about countries" }
                         a {
                             class: &cls.underlined as &str,
-                            href: "https://cntrn.vercel.app",
+                            href: "https://cninfo.catboy.at",
                             "countryinfo"
                         }
                     }
@@ -271,7 +271,7 @@ fn App() -> Element {
                         span { color: "var(--overlay0)", "information about ip's" }
                         a {
                             class: &cls.underlined as &str,
-                            href: "https://ipinf.vercel.app",
+                            href: "https://ipinfo.catboy.at",
                             "ipinfo"
                         }
                     }
@@ -281,7 +281,7 @@ fn App() -> Element {
                         span { color: "var(--overlay0)", "track postal shipments" }
                         a {
                             class: &cls.underlined as &str,
-                            href: "https://pstr.vercel.app",
+                            href: "https://tracking.catboy.at",
                             "tracking"
                         }
                     }
