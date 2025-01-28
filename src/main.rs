@@ -214,8 +214,8 @@ fn App() -> Element {
                         span { color: "var(--overlay0)", "email" }
                         a {
                             class: &cls.underlined as &str,
-                            href: "mailto:catboy009@icloud.com",
-                            "catboy009@icloud.com"
+                            href: "mailto:catboy@catboy.at",
+                            "catboy@catboy.at"
                         }
                     }
                 }
