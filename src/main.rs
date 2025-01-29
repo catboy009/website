@@ -251,7 +251,7 @@ fn App() -> Element {
                         span { color: "var(--overlay0)", "information about countries" }
                         a {
                             class: &cls.underlined as &str,
-                            href: "https://cninfo.catboy.at",
+                            href: "https://cn.catboy.at",
                             "countryinfo"
                         }
                     }
@@ -271,7 +271,7 @@ fn App() -> Element {
                         span { color: "var(--overlay0)", "information about ip's" }
                         a {
                             class: &cls.underlined as &str,
-                            href: "https://ipinfo.catboy.at",
+                            href: "https://ip.catboy.at",
                             "ipinfo"
                         }
                     }
