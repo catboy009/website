@@ -34,7 +34,7 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://weather.catboy.at'),
+  metadataBase: new URL('https://catboy.at'),
   title: 'catboy',
   description: 'meow',
   robots: {
@@ -62,14 +62,14 @@ export const metadata: Metadata = {
     siteName: 'catboy',
     locale: 'en-US',
     type: 'website',
-    url: 'https://weather.catboy.at/',
+    url: 'https://catboy.at/',
   },
   icons: {
     icon: '/favicon.png',
     apple: 'apple-touch-icon.png',
   },
   alternates: {
-    canonical: 'https://weather.catboy.at',
+    canonical: 'https://catboy.at',
   },
   manifest: '/site.webmanifest',
   other: {
