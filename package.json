@@ -1,5 +1,5 @@
 {
-  "name": "weather",
+  "name": "website",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
