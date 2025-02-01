@@ -32,7 +32,7 @@ export default function Home() {
         <div className='mb-4 text-overlay0'>
           {data && !error && (
             <p>
-              they/them, {Math.round(data.main.temp)}°C {data.weather[0].description}, {time}
+              he/they, {Math.round(data.main.temp)}°C {data.weather[0].description}, {time}
             </p>
           )}
         </div>
