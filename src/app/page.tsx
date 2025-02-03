@@ -65,6 +65,17 @@ export default function Home() {
       <ul className='animated-list grid grid-cols-1 sm:grid-cols-2 gap-6'>
         <li>
           <div className='flex flex-col'>
+            <span className='text-overlay0'>the gallery of my cat</span>
+            <a
+              className='underlined'
+              href='https://cat.catboy.at'
+            >
+              tishka gallery
+            </a>
+          </div>
+        </li>
+        <li>
+          <div className='flex flex-col'>
             <span className='text-overlay0'>view your weather</span>
             <a
               className='underlined'
