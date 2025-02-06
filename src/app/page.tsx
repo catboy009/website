@@ -11,15 +11,13 @@ export default function Home() {
     'https://api.openweathermap.org/data/2.5/weather?q=neftekamsk&units=metric&appid=7484f462f852c04cbab6a6a5ad8c9d37',
     fetcher,
   )
-  const [millis, setMillis] = useState(0) // Store elapsed time in milliseconds
-  const [startTime] = useState<number>(Date.now()) // Set the initial start time when component mounts
-
+  const [millis, setMillis] = useState(0)
+  const [startTime] = useState<number>(Date.now())
   useEffect(() => {
     const interval = setInterval(() => {
-      setMillis(Date.now() - startTime) // Update elapsed time
+      setMillis(Date.now() - startTime)
     }, 100)
 
-    // Cleanup the interval when the component unmounts
     return () => clearInterval(interval)
   }, [startTime])
 
@@ -32,7 +30,7 @@ export default function Home() {
         <div className='mb-4 text-overlay0'>
           {data && !error && (
             <p>
-              he/they, {Math.round(data.main.temp)}°C {data.weather[0].description}, {time}
+              {Math.round(data.main.temp)}°C {data.weather[0].description}, {time}
             </p>
           )}
         </div>
