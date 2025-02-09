@@ -1,5 +1,6 @@
 import './globals.css'
 import { cn } from '@/lib/utils'
+import { Analytics } from '@vercel/analytics/react'
 import { Metadata, Viewport } from 'next'
 import localFont from 'next/font/local'
 
@@ -97,6 +98,7 @@ export default function RootLayout({
             {children}
           </main>
         </div>
+        <Analytics />
       </body>
     </html>
   )
